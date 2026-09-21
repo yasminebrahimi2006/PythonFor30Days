@@ -207,6 +207,7 @@ print("مرتب صعودی:", numbers)
 numbers.sort(reverse=True)
 print("مرتب نزولی:", numbers)
 
+
 # ============ بخش ۷: حلقه ============
 print("\nحلقه روی میوه‌ها:")
 for i, fruit in enumerate(fruits):
