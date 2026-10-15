@@ -1,6 +1,49 @@
-__pycache__/
-*.pyc
+# دیتابیس‌ها
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# لاگ‌ها
+*.log
+logs/
+
+# محیط مجازی
 .venv/
+venv/
+env/
+ENV/
+
+# پایتون
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# IDE
 .vscode/
 .idea/
-*.log
+*.swp
+*.swo
+
+# سیستم‌عامل
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# فایل‌های حساس
+.env
+.env.local
+config.local.json
+secrets.json
+*.pem
+*.key
+
+# خروجی‌ها
+scan_*.json
+output/
+exports/
